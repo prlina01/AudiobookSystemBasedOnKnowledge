@@ -1,0 +1,8 @@
+package com.example.rules
+
+rule "Rule 1"
+when
+    $i: Integer(intValue > 0)
+then
+    System.out.println("Rule 1 triggered: Positive number " + $i);
+end
