@@ -33,7 +33,7 @@ public class Book {
 
     private String cover;
 
-    private String pdf;
+    private String mp3;
 
     @Column(nullable = false)
 //    private BookType type;
